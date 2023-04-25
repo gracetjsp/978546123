@@ -1,0 +1,105 @@
+/* HEADER START */
+.top-header{
+    background: #fff !important;
+
+}
+.header_span {
+    color: black;  
+}
+.top-header a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.top-header a:hover{
+    color:#fbd005 !important;
+}
+.top-header span{
+    color: black;
+}
+.header_contact{
+    color: black;
+    font-weight: 500;
+}
+.top-header span:hover{
+    color:#fbd005 !important;
+}
+.card_icon i{
+    --fa-animation-duration: 2s;
+}
+/* header end */
+
+/* navbar start */
+.logo img {
+    width: 100px;
+    height: 65px;
+}
+
+nav {
+    background: black !important;
+    font-weight: 700;
+    font-size: large;
+}
+nav a {
+    color:#fff !important;
+}
+nav a:hover{
+    color: #fbd005 !important;
+}
+.dropdown-menu .dropdown-item{
+    background: black !important;
+}
+.dropdown-menu a{
+    color:#fff !important;
+    font-weight: 600;
+    font-size: medium;
+}
+.dropdown-menu a:hover{
+    color: #fbd005 !important;
+
+}
+/* navbar end */
+
+
+
+/* footer start */
+footer{
+    background: black;
+}
+.footer_para{
+    text-align: justify;
+}
+
+.footer-icon i {
+   
+    color: white;
+  }
+  .footer-icon:hover i,
+  .footer-icon:hover li,
+  .footer-icon:hover a {
+    color: #f1ca06;
+
+  }
+  .list-unstyled li,a{
+    text-decoration: none;
+  }
+  .footer_a a{
+    text-decoration: none;
+    color: white;
+  }
+  .footer_para:hover{
+    color: #fbd005 !important;
+}
+footer h4:hover{
+    color: #fbd005 !important;
+
+}
+.footer_a a:hover{
+    color: #fbd005 !important;
+
+}
+.mail_icon{
+    --fa-beat-fade-opacity: 0.67;
+     --fa-beat-fade-scale: 1.075; 
+}
+/* footer end */

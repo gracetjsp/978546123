@@ -1,0 +1,101 @@
+/* banner start */
+.banner {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 130px 0px 140px 0px;
+}
+.button_contact a{
+    border: 2px solid white !important;
+}
+@media (max-width: 575.98px) {
+    .banner{
+    padding: 100px 0px 110px 0px;
+
+    }
+    .banner h3{
+        font-size: 17px !important;
+    } 
+    .banner h1{
+        font-size: 27px !important;
+
+    }
+}
+/* service start */
+.service_card p{
+    text-align: justify;
+    font-size: 15px;
+}
+.service_heading1 {
+    position: absolute;
+    bottom: 0;
+    background: black;
+    width: 100%;
+}
+
+.overlay1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background: black;
+    display: block;
+
+}
+
+.overlay1:hover {
+    opacity: 1;
+}
+/* service end */
+#about_us h5 {
+    text-align: justify;
+    font-size: larger;
+    font-weight: 600;
+    /* line-height: 27px; */
+
+
+}
+
+/* contact us start */
+.contact_us_card{
+    border: 2px solid black;
+    box-shadow: 20px 20px 50px gray;
+}
+.contact_us_card button{
+    background: black;
+}
+#hiddenConfirmed{
+    display: none;
+}
+/* contact us end */
+/* submission start */
+.submission{
+    padding-top: 25vh;
+    min-height: 65vh;
+}
+/* submission end */
+/* top button */
+#myBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 35px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+/* top button end */
+/* whatsapp button start */
+#my_whatsapp {
+    position: fixed;
+    bottom: 60px;
+    right: 30px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+/* whatsapp end end */
